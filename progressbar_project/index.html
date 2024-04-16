@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progressbar</title>
+    <!--css link-->
+    <link rel="stylesheet" href="/progressbar_project/progresscircle.css">
+</head>
+
+<body>
+    <div class="circlechart" data-percentage="80">
+        80%
+    </div>
+
+    <div class="circlechart" data-percentage="40">
+        4y588880%
+    </div>
+    <!--jquery  cdn-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+        crossorigin="anonymous">
+</script>
+    <!--js link-->
+    <script src="/progressbar_project/progresscircle.js"></script>
+    <script>
+        $(function(){
+
+$('.circlechart').circlechart();
+
+});
+    </script>
+</body>
+
+</html>
