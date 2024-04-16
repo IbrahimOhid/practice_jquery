@@ -109,3 +109,23 @@
 //     });
 // });
 
+// $(document).ready(function(){
+//     $('button').click(function(){
+//         $('.one .title1').text('OHID BHAI');
+//     });
+// });
+
+$(document).ready(function(){
+    $('button').click(function(e){
+        let firstName = $('#fname').val();
+        let lastName = $('#lname').val();
+        let userName = $('#uname').val();
+        let Password = $('#password').val();
+        e.preventDefault();
+        if(firstName == '' || lastName == '' || userName == '' || Password == ''){
+            $('h1').text('Login Failed');
+        }else{
+            $('h1').text('Login Successful');
+        }
+    });
+});
