@@ -21,13 +21,16 @@
     text-align: justify;
 } */
 
-/* .one{
+.one{
     height: 200px;
     width: 200px;
     background: red;
-} */
+    color: white;
+}
 .two{
     height: 200px;
     width: 200px;
     background: rgb(112, 74, 209);
+    color: white;
+    font-weight: bold;
 }

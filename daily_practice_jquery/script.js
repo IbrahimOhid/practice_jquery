@@ -72,7 +72,7 @@
 //     // $('button').on('click', function(){
 //     //     alert('Hello World')
 //     // });
-    
+
 // });
 
 // $(document).ready(function(){
@@ -115,17 +115,40 @@
 //     });
 // });
 
+// $(document).ready(function(){
+//     $('button').click(function(e){
+//         let firstName = $('#fname').val();
+//         let lastName = $('#lname').val();
+//         let userName = $('#uname').val();
+//         let Password = $('#password').val();
+//         e.preventDefault();
+//         if(firstName == '' || lastName == '' || userName == '' || Password == ''){
+//             $('h1').text('Login Failed');
+//         }else{
+//             $('h1').text('Login Successful');
+//         }
+//     });
+// });
+
+// $(document).ready(function () {
+//     $('button').click(function () {
+//         let oneText = $('.one').text();
+//         $('.two').text(oneText);
+//     });
+// });
+
+// $(document).ready(function(){
+//     $('button').click(function(e){
+//         e.preventDefault();
+//         $('#fname').val('Ibrahim')
+//     })
+// })
+
 $(document).ready(function(){
-    $('button').click(function(e){
-        let firstName = $('#fname').val();
-        let lastName = $('#lname').val();
-        let userName = $('#uname').val();
-        let Password = $('#password').val();
-        e.preventDefault();
-        if(firstName == '' || lastName == '' || userName == '' || Password == ''){
-            $('h1').text('Login Failed');
-        }else{
-            $('h1').text('Login Successful');
-        }
-    });
-});
+    // $('.para a').attr('href', 'https://www.facebook.com/');
+    // $('.para a').attr('target', '_blank');
+    $('.para a').attr({
+        'href': 'https://www.facebook.com/',
+        'target': '_blank'
+    })
+})
