@@ -144,11 +144,34 @@
 //     })
 // })
 
-$(document).ready(function(){
-    // $('.para a').attr('href', 'https://www.facebook.com/');
-    // $('.para a').attr('target', '_blank');
-    $('.para a').attr({
-        'href': 'https://www.facebook.com/',
-        'target': '_blank'
-    })
-})
+// $(document).ready(function(){
+//     // $('.para a').attr('href', 'https://www.facebook.com/');
+//     // $('.para a').attr('target', '_blank');
+//     $('.para a').attr({
+//         'href': 'https://www.facebook.com/',
+//         'target': '_blank'
+//     })
+// })
+
+// $(document).ready(function(){
+//     $('button').click(function(){
+//         let para2 = '<div class="para2"><h1>Ohid Bhai</h1></div>';
+//     $('.para').after(para2)
+//     })
+// })
+
+// $(document).ready(function(){
+//     $('button').click(function(){
+//         let para1 = '<div class="para1"><h5>Ebna Osman Ebnol</h5></div>';
+//         $('.para').before(para1);
+//         let para2 = '<div class="para2"><h1>Ohid Bhai</h1></div>';
+//         $('.para').after(para2)
+//     })
+// })
+
+// $(document).ready(function(){
+//     $('button').click(function(){
+//         let para1 = $('<h3></h3>').text('Hello World');
+//         $('.para').after(para1)
+//     })
+// })
