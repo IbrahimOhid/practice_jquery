@@ -175,3 +175,11 @@
 //         $('.para').after(para1)
 //     })
 // })
+
+$(document).ready(function(){
+    $('button').click(function(){
+        $('.cetagory').append('<div class="add-language">\
+        <input type="text" name="cetagory" id="">\
+    </div>')
+    })
+})
