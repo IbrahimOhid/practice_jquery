@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(2, 0, 36);
+  background: radial-gradient(
+    circle,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+.category-form {
+background-color: #fff;
+  width: 400px;
+  height: 400px;
+  margin: 100px auto 0;
+  text-align: center;
+  box-shadow: rgb(236, 235, 235) 0px 3px 8px;
+  padding: 20px;
+}
+.category-form > button {
+  background: rgb(2, 0, 36);
+  background: radial-gradient(
+    circle,
+    rgba(2, 0, 36, 1) 0%,
+    rgb(12, 12, 136) 35%,
+    rgb(0, 110, 255) 100%
+  );
+  color: white;
+  font-weight: 600;
+  padding: 15px 35px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px auto;
+}
+.input-category {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.input-category > input {
+  padding: 10px 30px;
+  margin-bottom: 10px;
+}
+.delete-btn {
+  margin-top: 5px;
+  font-size: 25px;
+}
+.delete-btn > a i {
+  color: red;
+}
